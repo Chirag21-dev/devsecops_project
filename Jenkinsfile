@@ -2,11 +2,11 @@ pipeline {
     agent any
     
     tools {
-        nodejs 'nodejs23'
+        #nodejs 'nodejs23'#
     }
 
     environment {
-        SCANNER_HOME = tool 'sonar-scanner'
+        #SCANNER_HOME = tool 'sonar-scanner'#
     }
     stages {
         stage('Git Checkout') {
