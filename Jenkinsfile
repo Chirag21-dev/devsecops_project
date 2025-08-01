@@ -14,3 +14,5 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/Chirag21-dev/devsecops_project'
             }
         }
+    }
+}
